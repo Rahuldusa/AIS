@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="assets/css/plugins/owl.carousel.css">
     <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Add these to the head of your HTML file -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -545,13 +550,19 @@
         <!-- ============bg-se-06  Section  Start============ -->
         
         <section class="bg-se-06">
-            <div class="container">
-                <div class="row">
-                    <div class="heading">
-                        <h2>Our Team</h2>
-                    </div>
-                </div>
-                <div class="row">
+    <div class="container">
+        <div class="row">
+            <div class="heading">
+                <h2>Our Team</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="teamCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+              
                     <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                         <div class="team-card">
                             <div class="image-team">
@@ -570,6 +581,8 @@
                         </div>
                     </div>
 
+                    
+
                     <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                         <div class="team-card">
                             <div class="image-team">
@@ -587,6 +600,8 @@
                             </div>
                         </div>
                     </div>
+                    
+                   
 
                     <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                         <div class="team-card">
@@ -606,6 +621,7 @@
                         </div>
                     </div>
 
+                    
                     <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                         <div class="team-card">
                             <div class="image-team">
@@ -625,6 +641,9 @@
                     </div>
                 </div>
             </div>
+            </div>
+            </div>
+           
         </section>
     </main>
 

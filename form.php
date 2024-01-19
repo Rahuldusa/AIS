@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -43,37 +44,38 @@
 <body>
 
 <div class="container mt-5">
-    <div class="card">
-        <div class="card-body">
+            <form method="post" id="form" action="formdb.php">
+                <div class="card">
+                    <div class="card-body">
             <h5 class="card-title">User Information</h5>
 
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <label for="firstName">First Name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required>
                 </div>
                 <div class="col-md-4 mb-3">
                     <label for="middleName">Middle Name</label>
-                    <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
+                    <input type="text" class="form-control" id="middleName" name="middlename" placeholder="Middle Name" required>
                 </div>
                 <div class="col-md-4 mb-3">
                     <label for="lastName">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" required>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <label for="dob">Date of Birth</label>
-                    <input type="date" class="form-control" id="dob" required>
+                    <input type="date" class="form-control" id="dateofbirth" name="dateofbirth" required>
                 </div>
                 <div class="col-md-4 mb-3">
                     <label for="age">Age</label>
-                    <input type="number" class="form-control" id="age" placeholder="Age" required>
+                    <input type="number" class="form-control" id="age" name="age" placeholder="Age" required>
                 </div>
                 <div class="col-md-4 mb-3">
                     <label for="maritalStatus">Marital Status</label>
-                    <select class="form-control" id="maritalStatus" required>
+                    <select class="form-control" id="maritalstatus" name="maritalstatus" required>
                         <option value="single">Single</option>
                         <option value="married">Married</option>
                     </select>
@@ -82,36 +84,36 @@
 
             <div class="mb-3">
                 <label for="country">Country</label>
-                <input type="text" class="form-control" id="country" placeholder="Country" required>
+                <input type="text" class="form-control" id="country" name="country" placeholder="Country" required>
             </div>
 
-            <div class="mb-3">
+                        <div class="mb-3">
                 <label for="address">Complete Address</label>
-                <textarea class="form-control" id="address" rows="3" placeholder="Complete Address" required></textarea>
+                <textarea class="form-control" id="completeaddress" name="address" rows="3" placeholder="Complete Address" required></textarea>
             </div>
 
             <div class="row">
                 <div class="col-md-6 mb-3">
                     <label for="contactNumber">Contact Number</label>
-                    <input type="tel" class="form-control" id="contactNumber" placeholder="Contact Number" required>
+                    <input type="tel" class="form-control" id="contactnumber" name="contactnumber" placeholder="Contact Number" required>
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                 </div>
             </div>
 
-            <center>
-            <div class="row">
-                <div class="col-md-6">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                        <center>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
                 </div>
-            </div>
-
-            </center>
+            </form>
         </div>
-    </div>
-</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
@@ -126,3 +128,6 @@
 
 </body>
 </html>
+
+
+
