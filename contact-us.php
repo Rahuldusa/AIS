@@ -274,11 +274,14 @@
 <body>
 <?php include('header.php') ?>
     <main>
+
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="images/banner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-flex align-items-center justify-content-center">
                 <h2>Contact Us</h2>
+
+      
             </div>
 
         </div>

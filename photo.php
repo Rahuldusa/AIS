@@ -80,7 +80,7 @@
 
   .gallery-item img {
     max-width: 100%;
-    height: auto;
+    height: 90%;
     display: block; /* Display the image as a block element */
     margin: 0 auto; /* Center the image horizontally */
   }
@@ -98,23 +98,23 @@
 
 <div class="gallery" data-aos="zoom-in-right">
   <div class="gallery-item">
-    <a href="img/gallery1.png" data-lightbox="gallery" data-title="Image 1">
-      <img src="img/gallery1.png" alt="Image 1">
+    <a href="img/17.png" data-lightbox="gallery" data-title="Image 1">
+      <img src="img/17.png" alt="Image 1"style="border: 1px solid black;">
     </a>
   </div>
   <div class="gallery-item">
-    <a href="img/gallery3.png" data-lightbox="gallery" data-title="Image 2">
-      <img src="img/gallery3.png" alt="Image 2">
+    <a href="img/18.png" data-lightbox="gallery" data-title="Image 2">
+      <img src="img/18.png" alt="Image 2"style="border: 1px solid black;">
     </a>
   </div>
   <div class="gallery-item">
-    <a href="img/gallery2.png" data-lightbox="gallery" data-title="Image 3">
-      <img src="img/gallery2.png" alt="Image 3">
+    <a href="img/19.png" data-lightbox="gallery" data-title="Image 3">
+      <img src="img/16.png" alt="Image 3" style="border: 1px solid black;">
     </a>
   </div>
   <div class="gallery-item">
     <a href="img/gallery4.png" data-lightbox="gallery" data-title="Image 4">
-      <img src="img/gallery4.png" alt="Image 4">
+      <img src="img/9.png" alt="Image 4"style="border: 1px solid black;">
     </a>
   </div>
 </div>
@@ -127,12 +127,12 @@
 <div class="gallery" style="padding-top: 80px; background-color:beige; " data-aos="zoom-in-right">
   <div class="gallery-item">
     <!-- <a href="images/Gallery/large/large1.png" data-lightbox="gallery"> -->
-    <img src="img/main1.png" alt="Image 1">
+    <img src="img/1.png" alt="Image 1">
     <!-- </a> -->
   </div>
   <div class="gallery-item">
     <!-- <a href="images/Gallery/large/large2.png" data-lightbox="gallery"> -->
-    <img src="img/main.png" alt="Image 2">
+    <img src="img/8.png" alt="Image 2">
     <!-- </a> -->
   </div>
 </div>
@@ -143,22 +143,22 @@
 <div class="gallery" style="padding-top: 0px;" data-aos="zoom-in-right">
     <div class="gallery-item">
       <a href="img/gallery5.png" data-lightbox="gallery">
-        <img src="img/gallery5.png" alt="Image 1">
+        <img src="img/10.png" alt="Image 1"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery6.png" data-lightbox="gallery">
-        <img src="img/gallery6.png" alt="Image 2">
+        <img src="img/11.png" alt="Image 2"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery17.png" data-lightbox="gallery">
-        <img src="img/gallery17.png" alt="Image 3">
+        <img src="img/12.png" alt="Image 3"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery8.png" data-lightbox="gallery">
-        <img src="img/gallery8.png" alt="Image 4">
+        <img src="img/13.png" alt="Image 4"style="border: 1px solid black;">
       </a>
     </div>
   </div>
@@ -166,22 +166,22 @@
 <div class="gallery" style="padding-top: 0px;" data-aos="zoom-in-right">
     <div class="gallery-item">
       <a href="img/gallery9.png" data-lightbox="gallery">
-        <img src="img/gallery9.png" alt="Image 1">
+        <img src="img/14.png" alt="Image 1"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery10.png" data-lightbox="gallery">
-        <img src="img/gallery10.png" alt="Image 2">
+        <img src="img/15.png" alt="Image 2"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery11.png" data-lightbox="gallery">
-        <img src="img/gallery11.png" alt="Image 3">
+        <img src="img/9.png" alt="Image 3"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery12.png" data-lightbox="gallery">
-        <img src="img/gallery12.png" alt="Image 4">
+        <img src="img/11.png" alt="Image 4"style="border: 1px solid black;">
       </a>
     </div>
   </div>
@@ -190,22 +190,22 @@
   <div class="gallery" style="padding-top: 0px;" data-aos="zoom-in-right">
     <div class="gallery-item">
       <a href="img/gallery13.png" data-lightbox="gallery">
-        <img src="img/gallery13.png" alt="Image 1">
+        <img src="img/6.png" alt="Image 1"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery14.png" data-lightbox="gallery">
-        <img src="img/gallery14.png" alt="Image 2">
+        <img src="img/8.png" alt="Image 2"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery15.png" data-lightbox="gallery">
-        <img src="img/gallery15.png" alt="Image 3">
+        <img src="img/18.png" alt="Image 3" style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/gallery16.png" data-lightbox="gallery">
-        <img src="img/gallery16.png" alt="Image 4">
+        <img src="img/16.png" alt="Image 4" style="border: 1px solid black;">
       </a>
     </div>
   </div>
@@ -215,22 +215,22 @@
   <div class="gallery" style="padding-top: 0px;" data-aos="zoom-in-right">
     <div class="gallery-item">
       <a href="img/1.png" data-lightbox="gallery">
-        <img src="img/1.png" alt="Image 1">
+        <img src="img/1.png" alt="Image 1"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/2.png" data-lightbox="gallery">
-        <img src="img/2.png" alt="Image 2">
+        <img src="img/2.png" alt="Image 2"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/3.png" data-lightbox="gallery">
-        <img src="img/3.png" alt="Image 3">
+        <img src="img/3.png" alt="Image 3"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/4.png" data-lightbox="gallery">
-        <img src="img/4.png" alt="Image 4">
+        <img src="img/4.png" alt="Image 4"style="border: 1px solid black;">
       </a>
     </div>
   </div>
@@ -239,22 +239,22 @@
   <div class="gallery" style="padding-top: 0px;" data-aos="zoom-in-right">
     <div class="gallery-item">
       <a href="img/5.png" data-lightbox="gallery">
-        <img src="img/5.png" alt="Image 1">
+        <img src="img/5.png" alt="Image 1"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/6.png" data-lightbox="gallery">
-        <img src="img/6.png" alt="Image 2">
+        <img src="img/6.png" alt="Image 2"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/7.png" data-lightbox="gallery">
-        <img src="img/7.png" alt="Image 3">
+        <img src="img/7.png" alt="Image 3"style="border: 1px solid black;">
       </a>
     </div>
     <div class="gallery-item">
       <a href="img/8.png" data-lightbox="gallery">
-        <img src="img/8.png" alt="Image 4">
+        <img src="img/8.png" alt="Image 4"style="border: 1px solid black;">
       </a>
     </div>
   </div>
